@@ -1,4 +1,4 @@
-zipped & compressed using brotli libreoffice, taken from https://github.com/shelfio/libreoffice-lambda-layer.
+libreoffice zipped & compressed using brotli, taken from https://github.com/shelfio/libreoffice-lambda-layer.
 directories from the original libreoffice 6.4.0.3 were added to the archive:
 * share/config/soffice.cfg
 * share/config/webcast
