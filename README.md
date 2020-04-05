@@ -1,9 +1,9 @@
 ### LibreOffice zipped, compressed using brotli and archived using tar. Works with [aws-lambda-libreoffice](https://github.com/shelfio/aws-lambda-libreoffice).
 ##### Using layers provided here instead of the ones provided in [libreoffice-lambda-layer](https://github.com/shelfio/libreoffice-lambda-layer):
-######Pros:
+#####Pros:
 * 6.4.0.3 Is provided with several files that fix a bug when [converting doc/docx files containing tables of contents](https://github.com/vladgolubev/serverless-libreoffice/issues/32)
 * 6.4.2.2 Is just a newer version of LibreOffice containing different types of bugfixes, some that were necessary in my personal use cases
-######Cons:
+#####Cons:
 * 6.4.0.3 Has a bigger size than [shelfio-layer](https://github.com/shelfio/libreoffice-lambda-layer/blob/master/layer.tar.br.zip) by 35MB when unpacked
     * Not really a con unless you want to use additional layers in your Lambda function
 * 6.4.2.2 Has a bigger size than [shelfio-layer](https://github.com/shelfio/libreoffice-lambda-layer/blob/master/layer.tar.br.zip) by 50MB when unpacked 
